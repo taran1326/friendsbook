@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Form data!</title>
+    </head>
+    <body>
+        <h1>
+            Display here!
+        </h1>
+        <ul>
+            <% for(var i = 0 ; i < formData.length ; i++ ){%>
+                <li><%=formData[i].name%></li>
+                <li><%=formData[i].phone%></li>
+                <li><%=formData[i].email%></li>
+                <br>
+                <hr>
+            <%}%>
+        </ul>
+
+    </body>
+</html>
